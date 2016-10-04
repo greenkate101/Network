@@ -1,0 +1,128 @@
+		p {
+			font-family: "Montserrat-Bold";
+			color: #595959;
+		}
+		.current-box h3 {
+			text-align: left;
+		}
+		.current-box p {
+			text-align: left;
+			line-height: 25px;
+		}
+		.intro-ember {
+			border-bottom: solid rgba(0,0,0,0.1);
+			width: 80%;
+			margin-left: 10%;
+		}
+		.square {
+			
+			display: inline-block;
+		}
+		#green {
+			background-color: #57D8AB;
+			width: 40px;
+			height: 25px;
+			float: left;
+			font-family: "FONTLOG.txt";
+			font-size: 10px;
+			color: #FFFFFF;
+			text-shadow: -1px 1px #000;
+		}
+		#black {
+			background-color: #000;
+			width: 40px;
+			height: 25px;
+			margin-left: 1%;
+			float: left;
+			font-family: "FONTLOG.txt";
+			font-size: 10px;
+			color: #FFFFFF;
+			text-shadow: -1px 1px #000;
+		}
+		#red {
+			background-color: #D45949;
+			width: 50px;
+			height: 25px;
+			margin-left: 1%;
+			float: left;
+			font-family: "FONTLOG.txt";
+			font-size: 10px;
+			color: #FFFFFF;
+			text-shadow: -1px 1px #000;
+		}
+		.co-training p,
+		.co-training a,
+		.intro-ember p,
+		.intro-ember a {
+			float: left;
+		}
+		.intro-ember:after {
+			visibility: hidden;
+		    display: block;
+		    content: '';
+		    clear: both;
+		}
+		.intro-ember,
+		.co-training {
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+		}
+		.co-training:after {
+			visibility: hidden;
+		    display: block;
+		    content: '';
+		    clear: both;
+		}
+		.co-training {
+			border-bottom: solid rgba(0,0,0,0);
+			width: 80%;
+			margin-left: 10%;
+		}
+		.email-input {
+			background-image: url('bg.png');
+			background-position: center;
+			overflow: auto;
+			background-repeat: repeat;
+		}
+		#getintouch {
+			background-color: #11B8CC;
+      		padding: 20px 25px;
+      		color: #FFFFFF 
+		}
+		#submit {
+			background-color: #11B8CC;
+      		padding: 15px 20px;
+      		color: #FFFFFF ;
+    		}
+		#subdomain {
+			padding: 15px 20px;
+			width: 45%;
+		}
+		 .get-box {
+	      border-bottom: solid rgba(0,0,0,0);
+	      width: 100%;
+	      text-align: center;
+	      padding: 10px 0;
+	  	}
+	  	.graylink {
+	  		color: #595959;
+	  	}
+	  	@media (min-width: 900px) {
+	  		#green {
+	  		position: absolute;
+			top: 20px;
+			left: -50px;
+	  	}
+	  	#black {
+	  		position: absolute;
+			top: 60px;
+			left: -60px;
+	  	}
+	  	#red {
+			position: absolute;
+			top: 20px;
+			left: -70px;
+	  	}
+	  }
+

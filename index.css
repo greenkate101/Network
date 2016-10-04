@@ -1,0 +1,93 @@
+		p{
+			font-family: "Montserrat-Bold";
+			color: #595959;
+		}
+		.box {
+			overflow: auto;
+		}
+		.blue-box {
+			padding: 70px;
+		}
+		.blue-box h1,
+		.blue-box h2 {
+			letter-spacing: 1px;
+		}
+		.blue-box h2 {
+			color: #FFFFFF;
+		}
+		.white-box {
+			background-color: #FCFCFC;
+			display: inline-block;
+			line-height: 22px;
+			margin-left: 15%;
+			margin-right: 15%;
+			padding: 5%;
+		}
+		.do-box h2 {
+			margin: 5%;
+		}
+		.do-box {
+			background-image: url('bg.png');
+			background-position: center;
+			overflow: auto;
+			background-repeat: repeat;
+			padding: 0 10%;
+			padding-top: 5%;
+			padding-bottom: 10%;
+		}
+		.do-box p,
+		.do-box h3 { 
+			padding-right: 15%;
+			padding-left: 15%;
+		}	
+		h3 {
+			line-height: 25px;
+		}
+		 input,
+    	select,
+    	submit {
+     	 color: #FFFFFF ;
+    	}
+    	.networkimg {
+    		display: none;
+    	}
+		
+    	@media (min-width: 600px) {
+    		 .blue-box h1 {
+    		 	font-size: 40px;
+    		 }
+    		.do-box div{
+				float: left;
+				width: 50%;
+				padding: 0%;
+				margin: 0%;
+			}
+    		.networkimg {
+    			display: inline-block;
+    			max-width: 150;
+    			float: right;
+    			height: 30%;
+    			width: 30%;
+    			padding-right: 5%;
+    			margin: 5%;
+    		}
+    	}
+    		 
+		@media (min-width: 900px) {
+			.blue-box h1 {
+    		 	font-size: 70px;
+    		 }
+			.do-box div{
+			float: left;
+			width: 33%;
+			padding: 0;
+			margin: 0%;
+		}
+			.networkimg {
+    			display: none;
+    		}
+		}
+
+
+		@media (min-width: 1281px) 
+	

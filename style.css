@@ -1,0 +1,157 @@
+@font-face {
+      font-family: Domine;
+      src: url(Domine/Domine-Regular.ttf);
+    }
+    main {
+      text-align: center;
+    }
+header {
+      overflow: auto;
+    }
+    #top-nav {
+      background-color: #000000;
+      padding: 2%;
+    }
+    #top-nav ul {
+      vertical-align: middle;
+      list-style-type: none;
+      text-align: center;
+      margin: 0;
+    }
+    #top-nav li {
+      margin: 2%;
+      padding: 0;
+    }
+    #top-nav a {
+      line-height: 50px;
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+    .net {
+      max-width: 40px;
+      width: 100%;
+      display: block;
+      margin: 0;
+      padding: 0px;
+    }
+    /*blue box*/
+    .blue-box {
+      background-image: linear-gradient(#09B4C8, #5EDFEF);
+      overflow: auto;
+      padding: 5%;
+    }
+    
+    .blue-box h4{
+      line-height: 22px;      
+      text-align: center;
+      padding-left: 5%;
+      padding-right: 5%;
+      color: #FFFFFF;
+      letter-spacing: .8px;
+      line-height: 20px;
+    }
+    .open-box p, 
+    .get-box p {
+      line-height: 22px;      
+      text-align: center;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    /*submit*/
+    #white2-box {
+      display: block;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    #giveusashout {
+      background-color: #11B8CC;
+      padding: 20px 25px;
+    }
+    fieldset {
+      border: 0;
+      padding: 5%;
+    }
+    form h2 {
+      padding: 10px;
+    }
+     input,
+      select,
+      submit {
+        border: none;
+        outline: none;
+      }
+    @font-face {
+      font-family: "FONTLOG";
+      src: url(FONTLOG/FONTLOG.txt);
+    }
+    #black {
+      background-color: #57D8AB;
+      width: 50px;
+      height: 25px;
+      margin-left: 1%;
+      float: left;
+    }
+
+    /*footer*/
+
+    #foot-nav {
+      background-image: url('bg.png');
+      background-repeat: repeat;
+      background-position: center;
+      padding: 2%;
+      overflow: auto;
+    }
+    #foot-nav ul {
+      vertical-align: middle;
+      list-style-type: none;
+      text-align: center;
+    }
+    #foot-nav li {
+      margin: 2%;
+      padding: 0;
+    }
+    #foot-nav a {
+      line-height: 50px;
+      text-decoration: none;
+      color: #404040;
+    }
+    .net {
+      max-width: 40px;
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      padding: 2px;
+    }
+    .cf.footer:before {
+      visibility: hidden;
+      display: block;
+      content: '';
+      clear: both;
+    }
+
+    @media (min-width: 600px) {
+      nav {
+        display: inline-block;
+        vertical-align: middle;
+        width: 100%;
+      }
+      nav li {
+        display: inline-block;
+      }
+      .net {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      #foot-nav {
+        display: inline-block;
+        vertical-align: middle;
+        width: 100%;
+      }
+      #foot-nav li {
+        display: inline-block;
+      }
+      #top-nav a {
+      line-height: 0px;
+    }
+    /*fonts*/
+

@@ -1,0 +1,70 @@
+		p {
+			font-family: "Montserrat-Bold";
+			color: #595959;
+		}
+		.container {
+			padding: 20px 35px;
+		}
+		.special {
+			border-bottom: solid rgba(0,0,0,0.1);
+			width: 80%;
+			margin-left: 10%;
+		}
+		.special-image {
+			max-width: 160px;
+      		width: 100%;
+      		display: block;
+      		margin: auto;
+      		padding: 15px 0px;
+		}
+		#special-bottom {
+			border: none;
+			
+		}
+		.special p,
+		.special h3 {
+			text-align: left;
+			line-height: 25px;
+		}
+		h2 {
+			letter-spacing: 1px;
+		}
+		.start-border{
+			border-top: solid rgba(0,0,0,0.1);
+			width: 100%;
+		}
+		.start-border p {
+			line-height: 22px;			
+			text-align: center;
+			padding-left: 10%;
+			padding-right: 10%;
+		}
+		 input,
+    	select,
+    	submit {
+      	color: #FFFFFF ;
+      	border: none;
+      	outline: none;
+    	}
+    	@media (min-width: 600px) {
+    		#ember-large {
+				float: right;
+				padding: 0;
+				margin-left: 5%;
+				
+			}
+			#d-large {
+				float: left;
+				padding: 0;
+				margin-right: 5%;
+			}
+			#rail-large {
+				float: right;
+				padding: 0;
+				margin-left: 5%;
+			}
+			
+			}
+    	}
+		@media (min-width: 800px) {
+			
